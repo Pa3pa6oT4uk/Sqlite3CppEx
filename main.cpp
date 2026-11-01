@@ -49,10 +49,10 @@ static bool database_init()
 static void clear_input()
 {
     std::cin.clear();
-    std::cin.ignore(
-        std::numeric_limits<std::streamsize>::max(),
-        '\n'
-    );
+    // std::cin.ignore(
+    //     std::numeric_limits<std::streamsize>::max(),
+    //     '\n'
+    // );
 }
 
 // CREATE: Добавление пользователя
